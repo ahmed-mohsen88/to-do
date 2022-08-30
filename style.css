@@ -1,0 +1,40 @@
+*{
+    text-shadow: 0 0 3px beige;
+    border-radius: 8px;
+    box-shadow: 0 0 3px blueviolet;
+}
+body{
+  display:block;
+  margin:auto
+}
+.container{
+    text-align: center;
+    width: 40%;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+.former{
+    display: inline-flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    margin:auto;
+    margin-top: 20px;
+}
+.former input[type = "submit"]{
+    width: 60%;
+    background-color: rgb(110, 110, 255);
+    color: aliceblue;
+    font-size: x-large;
+    cursor: pointer;
+
+}
+
+.former *{
+    margin: 5px;
+}
+
